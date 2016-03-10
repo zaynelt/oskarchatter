@@ -1,0 +1,27 @@
+{
+  "name": "oskarchatter",
+  "scripts": {
+  },
+  "env": {
+    "AUTH_PASSWORD": {
+      "required": true
+    },
+    "AUTH_USERNAME": {
+      "required": true
+    },
+    "CHANNEL_ID": {
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "required": true
+    }
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/nodejs"
+    }
+  ]
+}
